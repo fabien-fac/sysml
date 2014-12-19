@@ -456,7 +456,7 @@
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_xOuAcWW9EeSQxtWn6KnwMg"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_xOuAcmW9EeSQxtWn6KnwMg">
-      <owner xmi:type="uml:Model" href="model.uml#_z1pRUGW7EeSQxtWn6KnwMg"/>
+      <owner xmi:type="uml:Package" href="model.uml#_iuS5YGW8EeSQxtWn6KnwMg"/>
     </styles>
     <element xmi:type="uml:Model" href="model.uml#_z1pRUGW7EeSQxtWn6KnwMg"/>
     <edges xmi:type="notation:Connector" xmi:id="_WZr8UYdqEeS196zUenAAxA" type="4006" source="_WKUgEYdpEeS196zUenAAxA" target="_eHaH4YdoEeS196zUenAAxA">
@@ -3319,7 +3319,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_Ilv9jYbJEeSt86h__XWTtg" name="diagram_compatibility_version" stringValue="1.0.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_Ilv9jobJEeSt86h__XWTtg"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_Ilv9j4bJEeSt86h__XWTtg">
-      <owner xmi:type="uml:Package" href="model.uml#_y3IlMGW8EeSQxtWn6KnwMg"/>
+      <owner xmi:type="uml:Package" href="model.uml#_5kw60GW8EeSQxtWn6KnwMg"/>
     </styles>
     <element xmi:type="uml:StateMachine" href="model.uml#_G-24MIbJEeSt86h__XWTtg"/>
     <edges xmi:type="notation:Connector" xmi:id="_RXccoIbJEeSt86h__XWTtg" type="7000" source="_LIvesIbJEeSt86h__XWTtg" target="_OjKXIIbJEeSt86h__XWTtg">
@@ -3978,7 +3978,7 @@
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_-WpSsYdsEeS196zUenAAxA"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_-WpSsodsEeS196zUenAAxA">
-      <owner xmi:type="uml:Package" href="model.uml#_-3MBQGW9EeSQxtWn6KnwMg"/>
+      <owner xmi:type="uml:Package" href="model.uml#_iuS5YGW8EeSQxtWn6KnwMg"/>
     </styles>
     <element xmi:type="uml:Package" href="model.uml#_-3MBQGW9EeSQxtWn6KnwMg"/>
     <edges xmi:type="notation:Connector" xmi:id="_M3JuwYdtEeS196zUenAAxA" type="4006" source="_LSfeEIdtEeS196zUenAAxA" target="_H1oVoIdtEeS196zUenAAxA">
@@ -4208,7 +4208,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_Rhbw8oeLEeSnEbGbUAVIgw" name="diagram_compatibility_version" stringValue="1.0.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_Rhbw84eLEeSnEbGbUAVIgw"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_Rhbw9IeLEeSnEbGbUAVIgw">
-      <owner xmi:type="uml:Package" href="model.uml#_y3IlMGW8EeSQxtWn6KnwMg"/>
+      <owner xmi:type="uml:Package" href="model.uml#_WsbpUIaSEeS5nf6r3JkOVw"/>
     </styles>
     <element xmi:type="uml:Interaction" href="model.uml#_N8228IeLEeSnEbGbUAVIgw"/>
     <edges xmi:type="notation:Edge" xmi:id="_DFcrsIePEeSnEbGbUAVIgw" type="4004" source="_7bdbgIeOEeSnEbGbUAVIgw" target="_7DiDsIeOEeSnEbGbUAVIgw">
