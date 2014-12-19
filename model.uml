@@ -7,15 +7,50 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_v2HrQGW8EeSQxtWn6KnwMg" name="Technical Needs"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_y3IlMGW8EeSQxtWn6KnwMg" name="System Design">
-      <ownedComment xmi:type="uml:Comment" xmi:id="_fhRx0IaMEeS5nf6r3JkOVw" annotatedElement="_yzvfgHugEeSg0rd0uc_qeg">
-        <ownedComment xmi:type="uml:Comment" xmi:id="_wFL_QIdsEeS196zUenAAxA" annotatedElement="_yzvfgHugEeSg0rd0uc_qeg">
-          <body>Prix : 100€&#xD;
-Poids : &#xD;
-Dimension :</body>
-        </ownedComment>
-        <body>Prix : 100€&#xD;
-Poids : &#xD;
-Dimension :</body>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_GnCg8IeAEeSnEbGbUAVIgw" annotatedElement="_b5HrsIEjEeSax6boW1Lp8A">
+        <body>Prix : 35$
+Poids : 45g
+Dimensions : 85,60 mm × 53,98 mm × 17 mm</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_s0X-sIeAEeSnEbGbUAVIgw" annotatedElement="_eaI28IEjEeSax6boW1Lp8A">
+        <body>Prix : 40$
+Poids : 140g
+Dimensions : 55,60 mm × 53,98 mm × 47 mm</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_BNOuMIeBEeSnEbGbUAVIgw" annotatedElement="_1ajSAIYaEeS2Aqff3FjpDQ">
+        <body>Prix : 10$
+Poids : 10g
+Dimensions :10 mm × 6 mm × 19 mm</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_g7qO0IeBEeSnEbGbUAVIgw" annotatedElement="_JyvTIIYbEeS2Aqff3FjpDQ">
+        <body>Prix : 10$
+Poids : 40g
+Dimensions : 90 mm × 8 mm × 8 mm</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_x45WkIeCEeSnEbGbUAVIgw" annotatedElement="_mcgdEHugEeSg0rd0uc_qeg _4sWLAIEZEeSax6boW1Lp8A _-uK_QHuiEeSg0rd0uc_qeg _EG-FYHuiEeSg0rd0uc_qeg">
+        <body>Prix : 60$
+Poids : 720g
+Dimensions : 245 × 225 × 75 mm</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_POI80IeEEeSnEbGbUAVIgw" annotatedElement="_68fS0HuhEeSg0rd0uc_qeg">
+        <body>Prix : 35$
+Poids : 1000g
+Dimensions : 240 × 220 × 70 mm</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_rQ3AsIeEEeSnEbGbUAVIgw" annotatedElement="_AGboIHuiEeSg0rd0uc_qeg">
+        <body>Prix : 95$
+Poids : 235g
+Dimensions : 60 x 60 x 60 mm</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HJcRIIeFEeSnEbGbUAVIgw" annotatedElement="_ocChUHufEeSg0rd0uc_qeg">
+        <body>Prix : (maximum) 200$
+Poids : (maximum) 10000g
+Dimensions : (maximum) 550x350x250 mm</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_0_nIgIeFEeSnEbGbUAVIgw" annotatedElement="_wLF1cIYYEeS2Aqff3FjpDQ">
+        <body>Prix : (maximum) 20$
+Poids : (maximum) 1000g
+Dimensions : (maximum) 200 x 200 x 200 mm</body>
       </ownedComment>
       <packagedElement xmi:type="uml:Package" xmi:id="_5R_IwGW8EeSQxtWn6KnwMg" name="Functional Architecture"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_5kw60GW8EeSQxtWn6KnwMg" name="Domain-specific Data"/>
@@ -27,12 +62,12 @@ Dimension :</body>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_8_XJgHuhEeSg0rd0uc_qeg" name="batterie_1" type="_68fS0HuhEeSg0rd0uc_qeg" association="_8_V7YHuhEeSg0rd0uc_qeg"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_CVgu0HuiEeSg0rd0uc_qeg" name="controlleur_1" type="_AGboIHuiEeSg0rd0uc_qeg" aggregation="composite" association="_CVeSkHuiEeSg0rd0uc_qeg"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_IvzRsXuiEeSg0rd0uc_qeg" name="roue_1" type="_EG-FYHuiEeSg0rd0uc_qeg" aggregation="composite" association="_IvxcgHuiEeSg0rd0uc_qeg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M01NYHuiEeSg0rd0uc_qeg" value="3"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M03CkHuiEeSg0rd0uc_qeg" value="3"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M01NYHuiEeSg0rd0uc_qeg" value="2"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M03CkHuiEeSg0rd0uc_qeg" value="2"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_NyiWUHujEeSg0rd0uc_qeg" name="block1_1" type="_-uK_QHuiEeSg0rd0uc_qeg" aggregation="composite" association="_NyghIHujEeSg0rd0uc_qeg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_T6rZQHujEeSg0rd0uc_qeg" value="3"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T6sAUHujEeSg0rd0uc_qeg" value="3"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_T6rZQHujEeSg0rd0uc_qeg" value="2"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T6sAUHujEeSg0rd0uc_qeg" value="2"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_8pJ-0IEZEeSax6boW1Lp8A" name="moteur_1" type="_4sWLAIEZEeSax6boW1Lp8A" aggregation="composite" association="_8pFtYIEZEeSax6boW1Lp8A"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_O4lvcIYXEeS2Aqff3FjpDQ" name="Port2" type="_zhIrkIYVEeS2Aqff3FjpDQ" aggregation="composite"/>
@@ -80,17 +115,9 @@ Dimension :</body>
       <packagedElement xmi:type="uml:Class" xmi:id="_WbOx0HugEeSg0rd0uc_qeg" name="Context">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_Z_ossHugEeSg0rd0uc_qeg" name="rover_1" type="_ocChUHufEeSg0rd0uc_qeg" aggregation="composite" association="_Z_mQcHugEeSg0rd0uc_qeg"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_r7EXgXugEeSg0rd0uc_qeg" name="pilote_1" type="_bG-vQHugEeSg0rd0uc_qeg" aggregation="composite" association="_r7DJYHugEeSg0rd0uc_qeg"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1hVHIHugEeSg0rd0uc_qeg" name="telecommande_1" type="_yzvfgHugEeSg0rd0uc_qeg" aggregation="composite" association="_1hSq4HugEeSg0rd0uc_qeg"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_o0HSwIYWEeS2Aqff3FjpDQ" name="actorPart1" type="_bG-vQHugEeSg0rd0uc_qeg" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_X8524IaLEeS5nf6r3JkOVw" name="environement_1" type="_PVZOgIaLEeS5nf6r3JkOVw" aggregation="composite" association="_X80XUIaLEeS5nf6r3JkOVw"/>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_G4maEIYXEeS2Aqff3FjpDQ" name="Connector1">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_G4noMIYXEeS2Aqff3FjpDQ" role="_o0HSwIYWEeS2Aqff3FjpDQ"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_G4noMYYXEeS2Aqff3FjpDQ" partWithPort="_1hVHIHugEeSg0rd0uc_qeg" role="_1PQk0IYWEeS2Aqff3FjpDQ"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_Tf5RwIYXEeS2Aqff3FjpDQ" name="Connector2">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_Tf6f4IYXEeS2Aqff3FjpDQ" partWithPort="_1hVHIHugEeSg0rd0uc_qeg" role="_OLVn4IYXEeS2Aqff3FjpDQ"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_Tf7G8IYXEeS2Aqff3FjpDQ" partWithPort="_Z_ossHugEeSg0rd0uc_qeg" role="_O4lvcIYXEeS2Aqff3FjpDQ"/>
-        </ownedConnector>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_p2QdMId_EeSnEbGbUAVIgw" name="telecommande_1" type="_yzvfgHugEeSg0rd0uc_qeg" association="_p2K9oId_EeSnEbGbUAVIgw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_Z_mQcHugEeSg0rd0uc_qeg" memberEnd="_Z_ossHugEeSg0rd0uc_qeg _Z_ossXugEeSg0rd0uc_qeg">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z_nekHugEeSg0rd0uc_qeg" source="org.eclipse.papyrus">
@@ -115,12 +142,6 @@ Dimension :</body>
       <packagedElement xmi:type="uml:Class" xmi:id="_yzvfgHugEeSg0rd0uc_qeg" name="Telecommande">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_1PQk0IYWEeS2Aqff3FjpDQ" name="flowport1" type="_xBnqQIYXEeS2Aqff3FjpDQ" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_OLVn4IYXEeS2Aqff3FjpDQ" name="Port1" visibility="public" type="_zhIrkIYVEeS2Aqff3FjpDQ" aggregation="composite"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_1hSq4HugEeSg0rd0uc_qeg" memberEnd="_1hVHIHugEeSg0rd0uc_qeg _1hVHIXugEeSg0rd0uc_qeg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1hT5AHugEeSg0rd0uc_qeg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1hUgEHugEeSg0rd0uc_qeg" key="nature" value="SysML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_1hVHIXugEeSg0rd0uc_qeg" name="context_1" type="_WbOx0HugEeSg0rd0uc_qeg" association="_1hSq4HugEeSg0rd0uc_qeg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_68fS0HuhEeSg0rd0uc_qeg" name="Batterie">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_vD1twIEbEeSax6boW1Lp8A" name="flowport1" type="_NuLCMIEeEeSax6boW1Lp8A" aggregation="composite"/>
@@ -243,6 +264,8 @@ Dimension :</body>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_1vS44IacEeSIoc8L75xNEQ" name="calculerNouvelleDirection"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_7g9gEIadEeSIoc8L75xNEQ" name="EnregistrerParcours"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_k39dYIdiEeS196zUenAAxA" name="enregistrerParcours"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_-4JXEIeJEeSnEbGbUAVIgw" name="calculerNouvelleDirection"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CAaIgIeKEeSnEbGbUAVIgw" name="enregistrerParcours"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_eaI28IEjEeSax6boW1Lp8A" name="Capteur">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_cSvuYIaOEeS5nf6r3JkOVw" name="flowport1" type="_wUbRQIYQEeS2Aqff3FjpDQ" aggregation="composite"/>
@@ -373,19 +396,19 @@ Dimension :</body>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_opxFoYdjEeS196zUenAAxA" name="" type="_b5HrsIEjEeSax6boW1Lp8A"/>
           <lifeline xmi:type="uml:Lifeline" xmi:id="_nMnLIIdjEeS196zUenAAxA" name="" represents="_nMnLIYdjEeS196zUenAAxA" coveredBy="_xxGdkIdjEeS196zUenAAxA _xxZYgIdjEeS196zUenAAxA _hdMUwIdkEeS196zUenAAxA _rNOEYIdkEeS196zUenAAxA _rNX1YIdkEeS196zUenAAxA __qrAAodkEeS196zUenAAxA _VISYIodlEeS196zUenAAxA"/>
           <lifeline xmi:type="uml:Lifeline" xmi:id="_oSQkkIdjEeS196zUenAAxA" name="" represents="_oSQkkYdjEeS196zUenAAxA" coveredBy="_xxGdkIdjEeS196zUenAAxA _xxZYgIdjEeS196zUenAAxA _hdMUwIdkEeS196zUenAAxA _rNOEYIdkEeS196zUenAAxA _rNX1YIdkEeS196zUenAAxA _JhJV4YdlEeS196zUenAAxA"/>
-          <lifeline xmi:type="uml:Lifeline" xmi:id="_opxFoIdjEeS196zUenAAxA" name="" represents="_opxFoYdjEeS196zUenAAxA" coveredBy="_xxGdkIdjEeS196zUenAAxA _xxZYgIdjEeS196zUenAAxA _hdMUwIdkEeS196zUenAAxA _rNOEYIdkEeS196zUenAAxA _rNX1YIdkEeS196zUenAAxA __qrAAYdkEeS196zUenAAxA _JhJV4odlEeS196zUenAAxA _PgS04YdlEeS196zUenAAxA _PgS04odlEeS196zUenAAxA _VISYIYdlEeS196zUenAAxA _m9L9IIdlEeS196zUenAAxA _m9VuIIdlEeS196zUenAAxA _5Rok4YdlEeS196zUenAAxA _5Rok4odlEeS196zUenAAxA"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_opxFoIdjEeS196zUenAAxA" name="" represents="_opxFoYdjEeS196zUenAAxA" coveredBy="_xxGdkIdjEeS196zUenAAxA _xxZYgIdjEeS196zUenAAxA _hdMUwIdkEeS196zUenAAxA _rNOEYIdkEeS196zUenAAxA _rNX1YIdkEeS196zUenAAxA __qrAAYdkEeS196zUenAAxA _JhJV4odlEeS196zUenAAxA _VISYIYdlEeS196zUenAAxA _m9L9IIdlEeS196zUenAAxA _m9VuIIdlEeS196zUenAAxA _Vqtv8IeKEeSnEbGbUAVIgw _VqyocIeKEeSnEbGbUAVIgw _aNZQ8IeKEeSnEbGbUAVIgw _aNZ4AIeKEeSnEbGbUAVIgw"/>
           <fragment xmi:type="uml:CombinedFragment" xmi:id="_xxGdkIdjEeS196zUenAAxA" name="CombinedFragment" covered="_opxFoIdjEeS196zUenAAxA _nMnLIIdjEeS196zUenAAxA _oSQkkIdjEeS196zUenAAxA" interactionOperator="par">
             <operand xmi:type="uml:InteractionOperand" xmi:id="_xxZYgIdjEeS196zUenAAxA" name="InteractionOperand" covered="_opxFoIdjEeS196zUenAAxA _nMnLIIdjEeS196zUenAAxA _oSQkkIdjEeS196zUenAAxA">
               <fragment xmi:type="uml:CombinedFragment" xmi:id="_rNOEYIdkEeS196zUenAAxA" name="CombinedFragment" covered="_opxFoIdjEeS196zUenAAxA _oSQkkIdjEeS196zUenAAxA _nMnLIIdjEeS196zUenAAxA" interactionOperator="loop">
                 <operand xmi:type="uml:InteractionOperand" xmi:id="_rNX1YIdkEeS196zUenAAxA" name="InteractionOperand" covered="_opxFoIdjEeS196zUenAAxA _oSQkkIdjEeS196zUenAAxA _nMnLIIdjEeS196zUenAAxA">
-                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_VISYIodlEeS196zUenAAxA" name="Tourner_MessageRecv" covered="_nMnLIIdjEeS196zUenAAxA" message="_VISYIIdlEeS196zUenAAxA"/>
+                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_VqyocIeKEeSnEbGbUAVIgw" name="calculerNouvelleDirection_MessageRecv" covered="_opxFoIdjEeS196zUenAAxA" message="_VqqFkIeKEeSnEbGbUAVIgw"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__qrAAYdkEeS196zUenAAxA" name="Avancer_MessageSend" covered="_opxFoIdjEeS196zUenAAxA" message="__qrAAIdkEeS196zUenAAxA"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__qrAAodkEeS196zUenAAxA" name="Avancer_MessageRecv" covered="_nMnLIIdjEeS196zUenAAxA" message="__qrAAIdkEeS196zUenAAxA"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JhJV4YdlEeS196zUenAAxA" name="ObstacleDetecte_MessageSend" covered="_oSQkkIdjEeS196zUenAAxA" message="_JhJV4IdlEeS196zUenAAxA"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JhJV4odlEeS196zUenAAxA" name="ObstacleDetecte_MessageRecv" covered="_opxFoIdjEeS196zUenAAxA" message="_JhJV4IdlEeS196zUenAAxA"/>
-                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PgS04YdlEeS196zUenAAxA" name="calculerNouvelleDirection_MessageSend" covered="_opxFoIdjEeS196zUenAAxA" message="_PgS04IdlEeS196zUenAAxA"/>
-                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PgS04odlEeS196zUenAAxA" name="calculerNouvelleDirection_MessageRecv" covered="_opxFoIdjEeS196zUenAAxA" message="_PgS04IdlEeS196zUenAAxA"/>
+                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Vqtv8IeKEeSnEbGbUAVIgw" name="calculerNouvelleDirection_MessageSend" covered="_opxFoIdjEeS196zUenAAxA" message="_VqqFkIeKEeSnEbGbUAVIgw"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_VISYIYdlEeS196zUenAAxA" name="Tourner_MessageSend" covered="_opxFoIdjEeS196zUenAAxA" message="_VISYIIdlEeS196zUenAAxA"/>
+                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_VISYIodlEeS196zUenAAxA" name="Tourner_MessageRecv" covered="_nMnLIIdjEeS196zUenAAxA" message="_VISYIIdlEeS196zUenAAxA"/>
                   <guard xmi:type="uml:InteractionConstraint" xmi:id="_rNX1YYdkEeS196zUenAAxA">
                     <specification xmi:type="uml:LiteralString" xmi:id="_rNX1YodkEeS196zUenAAxA" value="!ArretExploration"/>
                     <maxint xmi:type="uml:LiteralInteger" xmi:id="_rNX1ZIdkEeS196zUenAAxA" value="1"/>
@@ -401,8 +424,8 @@ Dimension :</body>
             <operand xmi:type="uml:InteractionOperand" xmi:id="_hdMUwIdkEeS196zUenAAxA" name="InteractionOperand0" covered="_opxFoIdjEeS196zUenAAxA _nMnLIIdjEeS196zUenAAxA _oSQkkIdjEeS196zUenAAxA">
               <fragment xmi:type="uml:CombinedFragment" xmi:id="_m9L9IIdlEeS196zUenAAxA" name="CombinedFragment" covered="_opxFoIdjEeS196zUenAAxA" interactionOperator="loop">
                 <operand xmi:type="uml:InteractionOperand" xmi:id="_m9VuIIdlEeS196zUenAAxA" name="InteractionOperand" covered="_opxFoIdjEeS196zUenAAxA">
-                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5Rok4odlEeS196zUenAAxA" name="enregistrerParcours_MessageRecv" covered="_opxFoIdjEeS196zUenAAxA" message="_5Rok4IdlEeS196zUenAAxA"/>
-                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5Rok4YdlEeS196zUenAAxA" name="enregistrerParcours_MessageSend" covered="_opxFoIdjEeS196zUenAAxA" message="_5Rok4IdlEeS196zUenAAxA"/>
+                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aNZ4AIeKEeSnEbGbUAVIgw" name="enregistrerParcours_MessageRecv" covered="_opxFoIdjEeS196zUenAAxA" message="_aNXbwIeKEeSnEbGbUAVIgw"/>
+                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aNZQ8IeKEeSnEbGbUAVIgw" name="enregistrerParcours_MessageSend" covered="_opxFoIdjEeS196zUenAAxA" message="_aNXbwIeKEeSnEbGbUAVIgw"/>
                   <guard xmi:type="uml:InteractionConstraint" xmi:id="_m9VuIYdlEeS196zUenAAxA">
                     <specification xmi:type="uml:LiteralString" xmi:id="_m9VuIodlEeS196zUenAAxA" value="!ArretExploration"/>
                     <maxint xmi:type="uml:LiteralInteger" xmi:id="_m9VuJIdlEeS196zUenAAxA" value="1"/>
@@ -418,9 +441,9 @@ Dimension :</body>
           </fragment>
           <message xmi:type="uml:Message" xmi:id="__qrAAIdkEeS196zUenAAxA" name="Avancer_Message" messageSort="asynchSignal" receiveEvent="__qrAAodkEeS196zUenAAxA" sendEvent="__qrAAYdkEeS196zUenAAxA" signature="__p7ZIIdkEeS196zUenAAxA"/>
           <message xmi:type="uml:Message" xmi:id="_JhJV4IdlEeS196zUenAAxA" name="ObstacleDetecte_Message" messageSort="asynchSignal" receiveEvent="_JhJV4odlEeS196zUenAAxA" sendEvent="_JhJV4YdlEeS196zUenAAxA" signature="_JgZvAIdlEeS196zUenAAxA"/>
-          <message xmi:type="uml:Message" xmi:id="_PgS04IdlEeS196zUenAAxA" name="calculerNouvelleDirection_Message" messageSort="asynchCall" receiveEvent="_PgS04odlEeS196zUenAAxA" sendEvent="_PgS04YdlEeS196zUenAAxA" signature="_1vS44IacEeSIoc8L75xNEQ"/>
           <message xmi:type="uml:Message" xmi:id="_VISYIIdlEeS196zUenAAxA" name="Tourner_Message" messageSort="asynchSignal" receiveEvent="_VISYIodlEeS196zUenAAxA" sendEvent="_VISYIYdlEeS196zUenAAxA" signature="_VHr7MIdlEeS196zUenAAxA"/>
-          <message xmi:type="uml:Message" xmi:id="_5Rok4IdlEeS196zUenAAxA" name="enregistrerParcours_Message" messageSort="asynchCall" receiveEvent="_5Rok4odlEeS196zUenAAxA" sendEvent="_5Rok4YdlEeS196zUenAAxA" signature="_k39dYIdiEeS196zUenAAxA"/>
+          <message xmi:type="uml:Message" xmi:id="_VqqFkIeKEeSnEbGbUAVIgw" name="calculerNouvelleDirection_Message" messageSort="asynchCall" receiveEvent="_VqyocIeKEeSnEbGbUAVIgw" sendEvent="_Vqtv8IeKEeSnEbGbUAVIgw" signature="_-4JXEIeJEeSnEbGbUAVIgw"/>
+          <message xmi:type="uml:Message" xmi:id="_aNXbwIeKEeSnEbGbUAVIgw" name="enregistrerParcours_Message" messageSort="asynchCall" receiveEvent="_aNZ4AIeKEeSnEbGbUAVIgw" sendEvent="_aNZQ8IeKEeSnEbGbUAVIgw" signature="_CAaIgIeKEeSnEbGbUAVIgw"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Signal" xmi:id="_4o7f0IaZEeSIoc8L75xNEQ" name="Allumage"/>
@@ -472,6 +495,13 @@ Dimension :</body>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_FQOJ4Id-EeSnEbGbUAVIgw" name="Satisfy7" client="_ocChUHufEeSg0rd0uc_qeg" supplier="_xMxPMIdoEeS196zUenAAxA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_upJZ4Id-EeSnEbGbUAVIgw" name="Satisfy8" client="_eaI28IEjEeSax6boW1Lp8A" supplier="_rq7MsIdnEeS196zUenAAxA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_vuVgUId-EeSnEbGbUAVIgw" name="Satisfy9" client="_wLF1cIYYEeS2Aqff3FjpDQ" supplier="_rq7MsIdnEeS196zUenAAxA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_p2K9oId_EeSnEbGbUAVIgw" memberEnd="_p2QdMId_EeSnEbGbUAVIgw _p2REQId_EeSnEbGbUAVIgw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p2OoAId_EeSnEbGbUAVIgw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p2PPEId_EeSnEbGbUAVIgw" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_p2REQId_EeSnEbGbUAVIgw" name="context_1" type="_WbOx0HugEeSg0rd0uc_qeg" association="_p2K9oId_EeSnEbGbUAVIgw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_N8228IeLEeSnEbGbUAVIgw" name="Interaction1"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_LreokGW9EeSQxtWn6KnwMg" name="System Test"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_-3MBQGW9EeSQxtWn6KnwMg" name="rover v1.0">
