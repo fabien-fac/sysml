@@ -463,6 +463,15 @@ Dimension :</body>
       <packagedElement xmi:type="uml:Signal" xmi:id="_JgZvAIdlEeS196zUenAAxA" name="ObstacleDetecte"/>
       <packagedElement xmi:type="uml:Signal" xmi:id="_VHr7MIdlEeS196zUenAAxA" name="Tourner"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_M3JuwIdtEeS196zUenAAxA" name="Satisfy1" client="_68fS0HuhEeSg0rd0uc_qeg" supplier="_WKUgEIdpEeS196zUenAAxA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_qD8QsId7EeSnEbGbUAVIgw" name="" client="_AGboIHuiEeSg0rd0uc_qeg" supplier="_yt54wIbOEeSt86h__XWTtg"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_9sztsId7EeSnEbGbUAVIgw" name="Satisfy2" client="_AGboIHuiEeSg0rd0uc_qeg" supplier="_MTsOoIdoEeS196zUenAAxA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_j-C0AId8EeSnEbGbUAVIgw" name="Satisfy3" client="_mcgdEHugEeSg0rd0uc_qeg" supplier="_S7aJgIdoEeS196zUenAAxA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_43z4MId8EeSnEbGbUAVIgw" name="Satisfy4" client="_b5HrsIEjEeSax6boW1Lp8A" supplier="_YlILEIdoEeS196zUenAAxA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_O7vCYId9EeSnEbGbUAVIgw" name="Satisfy5" client="_mcgdEHugEeSg0rd0uc_qeg" supplier="_i1wtYIdoEeS196zUenAAxA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_DlJIIId-EeSnEbGbUAVIgw" name="Satisfy6" client="_ocChUHufEeSg0rd0uc_qeg" supplier="_sJaDAIdoEeS196zUenAAxA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_FQOJ4Id-EeSnEbGbUAVIgw" name="Satisfy7" client="_ocChUHufEeSg0rd0uc_qeg" supplier="_xMxPMIdoEeS196zUenAAxA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_upJZ4Id-EeSnEbGbUAVIgw" name="Satisfy8" client="_eaI28IEjEeSax6boW1Lp8A" supplier="_rq7MsIdnEeS196zUenAAxA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_vuVgUId-EeSnEbGbUAVIgw" name="Satisfy9" client="_wLF1cIYYEeS2Aqff3FjpDQ" supplier="_rq7MsIdnEeS196zUenAAxA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_LreokGW9EeSQxtWn6KnwMg" name="System Test"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_-3MBQGW9EeSQxtWn6KnwMg" name="rover v1.0">
@@ -479,7 +488,7 @@ Dimension :</body>
         <packagedElement xmi:type="uml:Class" xmi:id="_eHaH4IdoEeS196zUenAAxA" name="ROVER_NFUNC_010"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_i1wtYIdoEeS196zUenAAxA" name="ROVER_NFUNC_020"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_sJaDAIdoEeS196zUenAAxA" name="ROVER_NFUNC_030"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_xMxPMIdoEeS196zUenAAxA" name="ROVER_NFUNC_030"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xMxPMIdoEeS196zUenAAxA" name="ROVER_NFUNC_040"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_WKUgEIdpEeS196zUenAAxA" name="RF1_ROVER_NFUNC_010"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_WZr8UIdqEeS196zUenAAxA" name="Satisfy1" client="_WKUgEIdpEeS196zUenAAxA" supplier="_eHaH4IdoEeS196zUenAAxA"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_vBKoYIdqEeS196zUenAAxA" name="RF1_ROVER_NFUNC_020"/>
@@ -619,7 +628,7 @@ Dimension :</body>
   <Requirements:Requirement xmi:id="_eH_9wIdoEeS196zUenAAxA" text="Battery must provide an autonomy of at least 10mn" id="ROVER_NFUNC_010" base_Class="_eHaH4IdoEeS196zUenAAxA"/>
   <Requirements:Requirement xmi:id="_i2NZVYdoEeS196zUenAAxA" text="The Rover must be assembled with limited soldering capabilities" id="ROVER_NFUNC_020" base_Class="_i1wtYIdoEeS196zUenAAxA"/>
   <Requirements:Requirement xmi:id="_sJ2u_odoEeS196zUenAAxA" text="The Rover must be packageable for flight travel (less than 10Kg including a flight case, handluggage max dimensions)" id="ROVER_NFUNC_030" base_Class="_sJaDAIdoEeS196zUenAAxA"/>
-  <Requirements:Requirement xmi:id="_xNg2EIdoEeS196zUenAAxA" text="The total price of the Rover must be less than 200$" id="ROVER_NFUNC_030" base_Class="_xMxPMIdoEeS196zUenAAxA"/>
+  <Requirements:Requirement xmi:id="_xNg2EIdoEeS196zUenAAxA" text="The total price of the Rover must be less than 200$" id="ROVER_NFUNC_040" base_Class="_xMxPMIdoEeS196zUenAAxA"/>
   <Requirements:Requirement xmi:id="_WKnbCYdpEeS196zUenAAxA" text="Battery must provide an autonomy of af least 10 mn when it's moving and reporting a map" id="RF1_ROVER_NFUNC_010" base_Class="_WKUgEIdpEeS196zUenAAxA"/>
   <standard:Refine xmi:id="_Y1-YlYdqEeS196zUenAAxA" base_Abstraction="_WZr8UIdqEeS196zUenAAxA"/>
   <Requirements:Requirement xmi:id="_vBjC64dqEeS196zUenAAxA" text="The Rover must be assembled without welds" id="RF1_ROVER_NFUNC_020" base_Class="_vBKoYIdqEeS196zUenAAxA"/>
@@ -629,4 +638,13 @@ Dimension :</body>
   <Requirements:Requirement xmi:id="_C-VE8IdsEeS196zUenAAxA" text="The Rover must be packageable for flight travel (less than 10Kg including a flight case, handluggage max dimensions =  55 x 35 x 25 cm )" id="RF1_ROVER_NFUNC_030" base_Class="_C92j0IdsEeS196zUenAAxA"/>
   <standard:Refine xmi:id="_UQw2EIdsEeS196zUenAAxA" base_Abstraction="_Sm1D0IdsEeS196zUenAAxA"/>
   <Requirements:Satisfy xmi:id="_M3masIdtEeS196zUenAAxA" base_Abstraction="_M3JuwIdtEeS196zUenAAxA"/>
+  <Requirements:Satisfy xmi:id="_qSxW4Id7EeSnEbGbUAVIgw" base_Abstraction="_qD8QsId7EeSnEbGbUAVIgw"/>
+  <Requirements:Satisfy xmi:id="_9tGBkId7EeSnEbGbUAVIgw" base_Abstraction="_9sztsId7EeSnEbGbUAVIgw"/>
+  <Requirements:Satisfy xmi:id="_j-Ug0Id8EeSnEbGbUAVIgw" base_Abstraction="_j-C0AId8EeSnEbGbUAVIgw"/>
+  <Requirements:Satisfy xmi:id="_44GMEId8EeSnEbGbUAVIgw" base_Abstraction="_43z4MId8EeSnEbGbUAVIgw"/>
+  <Requirements:Satisfy xmi:id="_O8BWQId9EeSnEbGbUAVIgw" base_Abstraction="_O7vCYId9EeSnEbGbUAVIgw"/>
+  <Requirements:Satisfy xmi:id="_Dla08Id-EeSnEbGbUAVIgw" base_Abstraction="_DlJIIId-EeSnEbGbUAVIgw"/>
+  <Requirements:Satisfy xmi:id="_FQfPoId-EeSnEbGbUAVIgw" base_Abstraction="_FQOJ4Id-EeSnEbGbUAVIgw"/>
+  <Requirements:Satisfy xmi:id="_upZRgId-EeSnEbGbUAVIgw" base_Abstraction="_upJZ4Id-EeSnEbGbUAVIgw"/>
+  <Requirements:Satisfy xmi:id="_vulX8Id-EeSnEbGbUAVIgw" base_Abstraction="_vuVgUId-EeSnEbGbUAVIgw"/>
 </xmi:XMI>
