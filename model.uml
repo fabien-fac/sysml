@@ -348,7 +348,7 @@ Dimensions : (maximum) 200 x 200 x 200 mm</body>
         </ownedEnd>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_WsbpUIaSEeS5nf6r3JkOVw" name="Sequence diagram">
-        <packagedElement xmi:type="uml:Interaction" xmi:id="_b5SvwIaSEeS5nf6r3JkOVw" name="Interaction1">
+        <packagedElement xmi:type="uml:Interaction" xmi:id="_b5SvwIaSEeS5nf6r3JkOVw" name="Diagramme de séquence Utilisation exploration">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_s9R1MIaSEeS5nf6r3JkOVw" name="" type="_bG-vQHugEeSg0rd0uc_qeg"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_yaY-IIaSEeS5nf6r3JkOVw" name="" type="_ocChUHufEeSg0rd0uc_qeg"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_0nKXsIaSEeS5nf6r3JkOVw" name="" type="_AGboIHuiEeSg0rd0uc_qeg"/>
@@ -390,7 +390,7 @@ Dimensions : (maximum) 200 x 200 x 200 mm</body>
           <message xmi:type="uml:Message" xmi:id="_EtaeAIadEeSIoc8L75xNEQ" name="tourner_Message" messageSort="asynchCall" receiveEvent="_EtaeAoadEeSIoc8L75xNEQ" sendEvent="_EtaeAYadEeSIoc8L75xNEQ" signature="_Esq3IIadEeSIoc8L75xNEQ"/>
           <message xmi:type="uml:Message" xmi:id="_4joMQIadEeSIoc8L75xNEQ" name="Message" messageSort="asynchCall" sendEvent="_4joMQYadEeSIoc8L75xNEQ"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Interaction" xmi:id="_TY_2sIdjEeS196zUenAAxA" name="Interaction2">
+        <packagedElement xmi:type="uml:Interaction" xmi:id="_TY_2sIdjEeS196zUenAAxA" name="Diagramme de séquence détaillé Explorer">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_nMnLIYdjEeS196zUenAAxA" name="" type="_4sWLAIEZEeSax6boW1Lp8A"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_oSQkkYdjEeS196zUenAAxA" name="" type="_eaI28IEjEeSax6boW1Lp8A"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_opxFoYdjEeS196zUenAAxA" name="" type="_b5HrsIEjEeSax6boW1Lp8A"/>
@@ -501,7 +501,22 @@ Dimensions : (maximum) 200 x 200 x 200 mm</body>
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_p2REQId_EeSnEbGbUAVIgw" name="context_1" type="_WbOx0HugEeSg0rd0uc_qeg" association="_p2K9oId_EeSnEbGbUAVIgw"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interaction" xmi:id="_N8228IeLEeSnEbGbUAVIgw" name="Interaction1"/>
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_N8228IeLEeSnEbGbUAVIgw" name="Diagramme de séquence utilisation explorer">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_3YQzMIeLEeSnEbGbUAVIgw" name="" type="_b5HrsIEjEeSax6boW1Lp8A"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_7DfncIeOEeSnEbGbUAVIgw" name="" type="_ocChUHufEeSg0rd0uc_qeg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_7bbmUIeOEeSnEbGbUAVIgw" name="" type="_bG-vQHugEeSg0rd0uc_qeg"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_7DfAYIeOEeSnEbGbUAVIgw" name="" represents="_7DfncIeOEeSnEbGbUAVIgw" coveredBy="_DFVW8IePEeSnEbGbUAVIgw _H_SIcIePEeSnEbGbUAVIgw _H_Q6UIePEeSnEbGbUAVIgw _QVgMgIePEeSnEbGbUAVIgw _QVhaoIePEeSnEbGbUAVIgw"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_7baYMIeOEeSnEbGbUAVIgw" name="" represents="_7bbmUIeOEeSnEbGbUAVIgw" coveredBy="_DFUI0IePEeSnEbGbUAVIgw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QVhaoIePEeSnEbGbUAVIgw" name="Allumage_MessageRecv" covered="_7DfAYIeOEeSnEbGbUAVIgw" message="_QVdwQIePEeSnEbGbUAVIgw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DFUI0IePEeSnEbGbUAVIgw" name="activation_MessageSend" covered="_7baYMIeOEeSnEbGbUAVIgw" message="_DFSToIePEeSnEbGbUAVIgw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DFVW8IePEeSnEbGbUAVIgw" name="activation_MessageRecv" covered="_7DfAYIeOEeSnEbGbUAVIgw" message="_DFSToIePEeSnEbGbUAVIgw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QVgMgIePEeSnEbGbUAVIgw" name="Allumage_MessageSend" covered="_7DfAYIeOEeSnEbGbUAVIgw" message="_QVdwQIePEeSnEbGbUAVIgw"/>
+        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_H_Q6UIePEeSnEbGbUAVIgw" name="ActionExecSpec" covered="_7DfAYIeOEeSnEbGbUAVIgw" finish="_H_SIcIePEeSnEbGbUAVIgw" start="_QVhaoIePEeSnEbGbUAVIgw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_H_SIcIePEeSnEbGbUAVIgw" name="ActionExecSpecFinish" covered="_7DfAYIeOEeSnEbGbUAVIgw" execution="_H_Q6UIePEeSnEbGbUAVIgw"/>
+        <message xmi:type="uml:Message" xmi:id="_DFSToIePEeSnEbGbUAVIgw" name="activation_Message" messageSort="asynchSignal" receiveEvent="_DFVW8IePEeSnEbGbUAVIgw" sendEvent="_DFUI0IePEeSnEbGbUAVIgw" signature="_DEu6AIePEeSnEbGbUAVIgw"/>
+        <message xmi:type="uml:Message" xmi:id="_QVdwQIePEeSnEbGbUAVIgw" name="Allumage_Message" messageSort="asynchCall" receiveEvent="_QVhaoIePEeSnEbGbUAVIgw" sendEvent="_QVgMgIePEeSnEbGbUAVIgw" signature="_GUaYYIaaEeSIoc8L75xNEQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Signal" xmi:id="_DEu6AIePEeSnEbGbUAVIgw" name="activation"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_LreokGW9EeSQxtWn6KnwMg" name="System Test"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_-3MBQGW9EeSQxtWn6KnwMg" name="rover v1.0">
